@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan&display=swap);
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(9, 26, 80);
+}
+
+.titulo{
+    display: grid;
+    padding: 15px;
+    background-color: #74C0FC;
+    width: 1880px;
+    height: 30px;
+}
+
+.texto{
+    color: whitesmoke;
+    text-align: center;
+    z-index: 99;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 45%;  
+    transform: translate(-50% -50%);
+    letter-spacing: 0.2rem;
+}
+
+#lua{
+    z-index: 9;
+    margin: 0 auto;
+    position: absolute;
+    top: 8%;
+    left: 100%;  
+}
+
+#rodape{
+    top: 95%;
+    left: 42%;
+}
+
+#planetas{
+    top: 15%;
+    left: 20%;
+}
+
+#bigBang{
+    top: 15%;
+    left: 45%;
+}
+
+#astronautas{
+    top: 15%;
+    left: 65%;
+}
+
+.fonte{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#espaco{
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    right: 32%;
+}
+
+#fundo{
+    width: 50%;
+    height: 50%;
+    filter: brightness(60%);
+    margin: 0 auto;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+#citacao{
+    top: 26%;
+    left: 35%;
+}
