@@ -3,6 +3,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    list-style: none;
 }
 
 html,body{
@@ -31,6 +32,18 @@ body{
     left: 45%;  
     transform: translate(-50% -50%);
     letter-spacing: 0.2rem;
+}
+
+.container{
+    width: 1100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: royalblue;
+    box-shadow: 15px 15px 15px 0px;
+    border-radius: 5px;
 }
 
 #lua{
@@ -70,12 +83,19 @@ body{
 
 #espaco{
     text-align: center;
+    top: 42%;
+    left: 30%;
+    right: 32%;
+}
+
+#big-bang{
+    text-align: center;
     top: 40%;
     left: 30%;
     right: 32%;
 }
 
-#fundo{
+.fundo{
     width: 50%;
     height: 50%;
     filter: brightness(60%);
@@ -87,7 +107,56 @@ body{
     z-index: -1;
 }
 
+#armstrong{
+    z-index: -1;
+    width: 15%;
+    height: 30%;
+    top: 30%;
+    left: 17%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#mulher{
+    z-index: -1;
+    width: 15%;
+    height: 30%;
+    top: 30%;
+    left: 41%;
+    margin: 0 auto;
+    position: absolute;  
+}
+
+#brasil{
+    z-index: -1;
+    width: 15%;
+    height: 30%;
+    top: 30%;
+    left: 66%;
+    margin: 0 auto;
+    position: absolute; 
+}
+
 #citacao{
     top: 26%;
     left: 35%;
 }
+
+#big{
+    top: 28%;
+    left: 27%;
+}
+
+ul.transparente li{
+    flex: 1 1 35px;
+    margin: 5px;
+}
+
+ul.transparente li a{
+    text-align: center;
+    display: block;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+}
+
+ul.transparente li a:hover {opacity: .5;}
