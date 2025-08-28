@@ -42,7 +42,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: royalblue;
-    box-shadow: 15px 15px 15px 0px;
+    box-shadow: 15px 15px 15px 0px black;
     border-radius: 5px;
 }
 
@@ -107,14 +107,32 @@ body{
     z-index: -1;
 }
 
+.redondo{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    box-shadow: 15px 15px 15px 0;
+}
+
 #armstrong{
     z-index: -1;
     width: 15%;
     height: 30%;
     top: 30%;
-    left: 17%;
+    left: 17.5%;
     margin: 0 auto;
     position: absolute;
+}
+
+#arms{
+    text-align: center;
+    top: 63%;
+    left: 14.5%;
+    font-size: 20px; 
+    width: 300px;
 }
 
 #mulher{
@@ -122,9 +140,17 @@ body{
     width: 15%;
     height: 30%;
     top: 30%;
-    left: 41%;
+    left: 43%;
     margin: 0 auto;
     position: absolute;  
+}
+
+#val{
+    text-align: center;
+    top: 63%;
+    left: 40%;
+    font-size: 20px; 
+    width: 300px;        
 }
 
 #brasil{
@@ -132,9 +158,17 @@ body{
     width: 15%;
     height: 30%;
     top: 30%;
-    left: 66%;
+    left: 68%;
     margin: 0 auto;
     position: absolute; 
+}
+
+#marcos{
+    text-align: center;
+    top: 63%;
+    left: 65%;
+    font-size: 20px; 
+    width: 300px;     
 }
 
 #citacao{
