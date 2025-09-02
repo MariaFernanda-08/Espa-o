@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan&display=swap);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(9, 26, 80);
+}
+
+.titulo{
+    display: grid;
+    padding: 15px;
+    background-color: #74C0FC;
+    width: 1880px;
+    height: 30px;
+}
+
+.texto{
+    color: whitesmoke;
+    text-align: center;
+    z-index: 99;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 45%;  
+    transform: translate(-50% -50%);
+    letter-spacing: 0.2rem;
+}
+
+.container{
+    width: 1100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: royalblue;
+    box-shadow: 15px 15px 15px 0px black;
+    border-radius: 5px;
+}
+
+#lua{
+    z-index: 9;
+    margin: 0 auto;
+    position: absolute;
+    top: 8%;
+    left: 100%;  
+}
+
+#rodape{
+    top: 95%;
+    left: 42%;
+}
+
+#planetas{
+    top: 15%;
+    left: 20%;
+}
+
+#bigBang{
+    top: 15%;
+    left: 45%;
+}
+
+#astronautas{
+    top: 15%;
+    left: 65%;
+}
+
+.fonte{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#espaco{
+    text-align: center;
+    top: 42%;
+    left: 30%;
+    right: 32%;
+}
+
+#big-bang{
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    right: 32%;
+}
+
+.fundo{
+    width: 50%;
+    height: 50%;
+    filter: brightness(60%);
+    margin: 0 auto;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.redondo{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    box-shadow: 15px 15px 15px 0;
+}
+
+#armstrong{
+    z-index: -1;
+    width: 15%;
+    height: 30%;
+    top: 30%;
+    left: 16.5%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#arms{
+    text-align: center;
+    top: 63%;
+    left: 15%;
+    font-size: 20px; 
+    width: 300px;
+}
+
+#mulher{
+    z-index: -1;
+    width: 15%;
+    height: 30%;
+    top: 30%;
+    left: 41%;
+    margin: 0 auto;
+    position: absolute;  
+}
+
+#val{
+    text-align: center;
+    top: 63%;
+    left: 40%;
+    font-size: 20px; 
+    width: 300px;        
+}
+
+#brasil{
+    z-index: -1;
+    width: 15%;
+    height: 30%;
+    top: 30%;
+    left: 66%;
+    margin: 0 auto;
+    position: absolute; 
+}
+
+#marcos{
+    text-align: center;
+    top: 63%;
+    left: 65%;
+    font-size: 20px; 
+    width: 300px;     
+}
+
+#citacao{
+    top: 26%;
+    left: 35%;
+}
+
+#big{
+    top: 28%;
+    left: 27%;
+}
+
+ul.transparente li{
+    flex: 1 1 35px;
+    margin: 5px;
+}
+
+ul.transparente li a{
+    text-align: center;
+    display: block;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+}
+
+ul.transparente li a:hover {opacity: .5;}
